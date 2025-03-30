@@ -33,7 +33,7 @@ export default function DeviceCardWithColorPicker(props: { deviceInformations: D
       };
 
       goveeClient
-        .setColor(model, device, rgbColor)
+        .setColor(device, model, rgbColor)
         .then(() => {
           notificationService.success({ message: "Color Changed successfully" });
         })

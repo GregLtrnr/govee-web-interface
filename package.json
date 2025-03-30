@@ -28,7 +28,8 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.3",
     "tailwind-merge": "^2.5.2",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "use-debounce": "^10.0.4"
   },
   "devDependencies": {
     "@types/node": "^20.16.5",
